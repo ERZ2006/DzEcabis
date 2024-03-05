@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+ 
+let  number = parseInt(prompt("Введите порядковый номер планеты в солнечной системе (от 1 до 9):"));
+
+let  planetName;
+
+switch (number) {
+    case 1:
+        planetName = "Меркурий";
+        break;
+    case 2:
+        planetName = "Венера";
+        break;
+    case 3:
+        planetName = "Земля";
+        break;
+    case 4:
+        planetName = "Марс";
+        break;
+    case 5:
+        planetName = "Юпитер";
+        break;
+    case 6:
+        planetName = "Сатурн";
+        break;
+    case 7:
+        planetName = "Уран";
+        break;
+    case 8:
+        planetName = "Нептун";
+        break;
+    case 9:
+        planetName = "Плутон";
+        break;
+    default:
+        planetName = "Нету такой  планеты, ты че дебил";
+}
+
+console.log("Планета с порядковым номером " + number + ":", planetName);
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+let  color = prompt("Введите цвет светофора:");
+color = color.toLowerCase();
+
+switch (color) {
+    case "красный":
+     console.log("Стоять!");
+        break;
+
+
+    case "желтый":
+        console.log("Ждать!");
+        break;
+
+    case "зеленый":
+        console.log("Идти!"); break;
+        
+    default:
+        console.log("Нет такого цвета, введите красный, желтый или зеленый.");
+}
+
+    </script>
+</body>
+</html>
